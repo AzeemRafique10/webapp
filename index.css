@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* General Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Plus Jakarta Sans, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header and Navbar */
+.header{
+  padding-top: 80px;
+}
+
+.header {
+  padding: 10px 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0; 
+  z-index: 1000; 
+
+  
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 55px;
+}
+
+.nav-buttons {
+  display: flex;
+
+}
+
+.login-btn {
+  width: 138px;
+  height: 38px;
+  border: 1px solid #00bfff;
+  padding: 10px 20px;
+  color: #00bfff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.64px;
+  text-align: center;
+  background-color: #f0f9ff;
+}
+
+/* Hero Section */
+.hero {
+  height: 550px;
+  opacity: 0.1px;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f0f9ff;
+  background-image: url("./assets/images/image39.svg");
+}
+.hero img {
+  width: 100%;
+  height: 550px;
+}
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  width: 188px;
+  height: 48px;
+  background-color: #0cbbc7;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  cursor: pointer;
+}
+
+/* image styles */
+.imagestyle {
+  align-items: center;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+}
+.imagestyle img {
+  bottom: 45px;
+  position: absolute;
+}
+
+/* Trusted Section */
+.trusted {
+  text-align: center;
+  margin: auto;
+}
+
+.trusted h2 {
+  font-size: 24px;
+}
+
+.trusted-logos {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  gap: 5px;
+  height: 130px;
+  width: 70%;
+}
+/* review section */
+.reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  height: 10px;
+}
+.reviews p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.64px;
+}
+.reviews span {
+  color: #00bfff;
+}
+.lineborder {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.linee {
+  width: 944px;
+  border: 1px solid #c5c5c55e !important;
+}
+.two-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.content-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 2.5rem;
+}
+
+.box-left {
+  width: 446px;
+  height: 367px;
+  justify-content: center;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.box-right {
+  width: 446px;
+  height: 367px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-image: url("./assets/images/Maskgroup.svg");
+  border-radius: 10px;
+}
+
+.content-text {
+  width: 365px;
+  height: 130px;
+}
+.content-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.title-top {
+  width: 279px;
+  height: 35px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 35.28px;
+  text-align: left;
+}
+.boxbutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box-btn {
+  width: 188px;
+  height: 48px;
+  background-color: #0cbbc7;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.company-logo {
+  width: 100px;
+}
+
+/* Platform Section */
+.platform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.platform h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.awards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+}
+
+.award {
+  text-align: center;
+  width: 261px;
+  height: 259px;
+  border-radius: 4px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.award-img {
+  width: 89.61px;
+  height: 100px;
+}
+
+/* Create Section */
+.create {
+  display: flex;
+  flex-direction: column;
+  height: 576px;
+}
+
+.create h2 {
+  height: 35px;
+  font-size: 28px;
+  line-height: 35.28px;
+  text-align: center;
+}
+
+.feature-section {
+  text-align: center;
+  height: 30%;
+}
+.badge-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.badge-custom {
+  background-color: #e0f7fa;
+  color: #00bcd4;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.badge {
+  background-color: #e0f7fa;
+  color: #00bcd4;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.highlight {
+  font-weight: bold;
+  color: black;
+}
+
+.hover-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.hover-text {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  gap: 0.5rem;
+  color: #676767;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+  text-align: left;
+}
+
+.border-bottom {
+  border-bottom: 3px solid #0cbbc7;
+}
+
+.main-content {
+  height: 411px;
+  display: flex;
+  flex-direction: row;
+  background-color: antiquewhite;
+}
+
+.block-right {
+  display: flex;
+  flex-direction: column;
+  width: 446px;
+  height: 367px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-image: url("./assets/images/banner.svg");
+  border-radius: 10px;
+}
